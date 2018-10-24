@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/addItems"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="@dimen/form_width"
+        android:background="@drawable/registration_form"
+        android:layout_height="wrap_content"
+        android:text="@string/add_new_item"
+        />
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="@dimen/form_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/registration_form"
+        android:text="@string/logout"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

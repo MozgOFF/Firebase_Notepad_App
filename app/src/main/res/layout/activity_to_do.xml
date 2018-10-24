@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ToDoActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="@dimen/item_padding"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/title_size"
+        android:text="@string/fill_data"
+        />
+    <EditText
+        android:id="@+id/titleInput"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_width="@dimen/form_width"
+        android:hint="@string/enter_new_title"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/contentInput"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_width="@dimen/form_width"
+        android:hint="@string/enter_new_content"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="@dimen/form_width"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/item_padding"
+        android:entries="@array/priorityList"
+        android:layout_gravity="center_horizontal"
+        >
+
+    </Spinner>
+    <Button
+        android:id="@+id/addItemsBtn"
+        android:layout_width="@dimen/form_width"
+        android:layout_height="wrap_content"
+        android:background="@drawable/registration_form"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/add_new_item"
+        />
+
+</LinearLayout>

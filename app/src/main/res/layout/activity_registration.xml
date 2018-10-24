@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="@dimen/form_width"
+        android:layout_height="@dimen/form_height"
+        android:layout_gravity="center"
+        android:layout_margin="70dp"
+        android:background="@drawable/registration_form"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:text="@string/registration"
+            android:textColor="@color/black"
+            android:textSize="@dimen/header_size" />
+
+        <EditText
+            android:id="@+id/registration_email"
+            android:layout_width="@dimen/frame_editText_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:hint="@string/registration_email_hint" />
+
+        <EditText
+            android:id="@+id/registration_password"
+            android:layout_width="@dimen/frame_editText_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:inputType="textPassword"
+            android:hint="@string/registration_password_hint" />
+
+        <EditText
+            android:id="@+id/registration_name"
+            android:layout_width="@dimen/frame_editText_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:hint="@string/registration_name_hint" />
+
+        <EditText
+            android:id="@+id/registration_age"
+            android:layout_width="@dimen/frame_editText_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="5dp"
+            android:hint="@string/registration_age_hint" />
+
+        <TextView
+            android:id="@+id/registration_login"
+            android:layout_width="@dimen/frame_button_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/registration_haveAccount"
+            android:textColor="@color/black"
+            />
+
+        <Button
+            android:id="@+id/registration_registerBtn"
+            android:layout_width="@dimen/frame_button_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/registration_form"
+            android:text="@string/registration_button_text"
+            android:textSize="@dimen/registration_button_textSize" />
+
+    </LinearLayout>
+</FrameLayout>

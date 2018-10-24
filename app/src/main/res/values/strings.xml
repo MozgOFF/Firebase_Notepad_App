@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Lab3_Midterm</string>
+
+    <string name="registration">Registration</string>
+    <string name="registration_email_hint">Enter your Email:</string>
+    <string name="registration_password_hint">Enter your password:</string>
+    <string name="registration_passwordConfirm_hint">Confirm your password:</string>
+    <string name="registration_name_hint">Enter your name:</string>
+    <string name="registration_age_hint">Enter your age:</string>
+    <string name="registration_haveAccount">Already have an account? Log in!</string>
+    <string name="registration_button_text">Register</string>
+
+    <string name="login">Login</string>
+    <string name="login_hint">Enter your email:</string>
+    <string name="login_password">Enter your password:</string>
+    <string name="login_button_text">Login</string>
+    <string name="login_registration">Not registered yet?</string>
+
+    <string name="empty_validation_error">Fill all fields</string>
+    <string name="data_validation_error">Fill all fields</string>
+    <string name="sign_in_error_message">Invalid email or password</string>
+    <string name="success_sign_in_message">Sign in success</string>
+    <string name="success_sign_up_message">Sign up success</string>
+    <string name="success_save_message">Data saved successfully</string>
+
+    <string name="user_info">E-mail: %1$s \nName: %2$s \nAge: %3$d</string>
+    <string name="logout">Logout</string>
+    <string name="add_new_item">Add item</string>
+    <string name="fill_data">Fill the data below:</string>
+    <string name="enter_new_content">Enter new content:</string>
+    <string name="enter_new_title">Enter new title:</string>
+
+    <string-array name="priorityList">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+</resources>

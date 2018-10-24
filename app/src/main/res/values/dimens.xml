@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="form_width">280dp</dimen>
+    <dimen name="form_height">380dp</dimen>
+    <dimen name="header_size">36sp</dimen>
+    <dimen name="frame_editText_width">240dp</dimen>
+    <dimen name="frame_button_width">240dp</dimen>
+    <dimen name="registration_button_textSize">24sp</dimen>
+    <dimen name="login_button_textSize">24sp</dimen>
+    <dimen name="item_padding">16dp</dimen>
+    <dimen name="title_size">19sp</dimen>
+    <dimen name="content_size">17sp</dimen>
+    <dimen name="spinner_size">15sp</dimen>
+</resources>

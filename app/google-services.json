@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1059996331082",
+    "firebase_url": "https://midterm-lab3.firebaseio.com",
+    "project_id": "midterm-lab3",
+    "storage_bucket": "midterm-lab3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059996331082:android:04adc2853029a094",
+        "android_client_info": {
+          "package_name": "com.example.midterm_lab3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059996331082-u7obs5aidpk4q21lqb4mm5ja0vmgdiik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDicPZUunVFlGhYaqQcCOvqmWumICF8jNk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
